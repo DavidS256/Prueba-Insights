@@ -178,21 +178,17 @@ Agente:  Of course! Connecting you with a specialist. Reference: INS-XXXXX
 ## Instalación
 
 ```bash
-# 1. Clona el repositorio
-git clone https://github.com/tu-usuario/insights-ach-agent.git
-cd insights-ach-agent
-
-# 2. Instala dependencias
+# 1. Instala dependencias
 pip install -r requirements.txt
 
-# 3. Configura tu API key de Gemini
+# 2. Configura tu API key de Gemini
 cp .env.example .env
 # Edita .env → GEMINI_API_KEY=tu_key_aqui
 
-# 4. Corre el agente
+# 3. Corre el agente
 python app_gemini.py
 
-# 5. Abre en el browser
+# 4. Abre en el browser
 # http://127.0.0.1:7860
 ```
 
